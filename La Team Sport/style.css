@@ -1,0 +1,251 @@
+body {
+	margin : 0px;
+	background-color:rgb(240,240,240);
+	font-family:arial;
+}
+
+.banner {
+    background-image: linear-gradient(0deg, rgb(255 13 0 / 60%) 0%, rgb(255 253 253 / 48%) 60%, rgb(255 0 0 / 0%) 100%), url(banner.jpg);
+    height: 41vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#logo {
+	height: 230px;
+	margin:10px;
+	margin-bottom: 15px
+}
+
+#instagram { 
+	text-align: center;
+	text-decoration: none; 
+	color:black;
+	background-color: #EA392D;
+	padding: 12px;
+	border-radius: 5px
+}
+
+#instagram:hover{
+	background-color: #EA392D;
+	color:white;
+}
+
+.container {
+	margin: 6 auto;
+	padding: 30px;
+	background:linear-gradient(0deg, rgb(255 13 0 / 0%) 0%, rgb(255 13 0 / 22%) 50%, rgb(255 0 0 / 60%) 100%)
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 26px
+}
+
+.card {
+	background-color: white;
+	width:110px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 7px;
+	box-shadow: 1px 1px 1px #00000066
+}
+
+img {
+	height: 105px;
+	border-radius: 7px;
+}
+
+a {
+	text-align: center;
+	text-decoration: none; 
+	padding: 0px;
+	padding-top: 0px
+}
+
+a:hover {
+	color:black;
+	background-image: #EA392D
+}
+
+.container-actu {
+	margin: 0 auto;
+	margin-left: 50px;
+	padding: 20px;
+	background-color: rgb(240,240,240);
+}
+
+.cards-actu {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+}
+
+.card-actu {
+	margin-left: 120px;
+	background-color: white;
+	width:450px;
+	text-align: left;
+	padding: 20px;
+	padding-top: 0px;
+	border-radius: 7px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+	box-shadow: 1px 1px 1px #00000066
+}
+
+h6 {
+	color: #5E5E5E;
+	font-size: 12px;
+	margin-bottom: 5px;
+	margin-top: 10px
+}
+
+#ménès-photo {
+	height: 298px;
+	border-radius: 0px;
+}
+
+#ménès-titre {
+	color: #5E5E5E;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding-top:5px;
+	text-decoration: underline;
+}
+
+#ménès-titre:hover {
+	color: #7A7878
+}
+
+.card-en-direct {
+	background-color: white;
+	width:520px;
+	text-align: left;
+	padding: 20px;
+	padding-top: 0px;
+	border-radius: 7px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px;
+	box-shadow: 1px 1px 1px #00000066
+}
+
+h5 {
+	text-decoration: none; 
+	color:white;
+	background-color: #EA392D;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+	margin-bottom:30px;
+
+}
+
+.actu-chaude {
+	color: #757575;
+}
+
+.actu-chaude:hover {
+	color:#D4D4D4;
+	text-decoration:underline;
+}
+
+.container-sujet {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    background-color: #EA392D;
+    margin-top: 60px;
+    border-radius :7px;
+    margin-left: 200px
+}
+
+.cards-sujet {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 150px;
+}
+
+.card-sujet {
+	color: white;
+	font-size: 20px
+}
+
+.tittle-sujet {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration:underline;
+}
+
+h2 {
+	color: #EA392D;
+	font-size: 50px;
+	margin-left: 545px;
+	margin-top: 60px;
+}
+
+.tittle-interview {
+	color: #EA392D;
+	font-size: 50px;
+	margin-left: 490px;
+	margin-top: 60px;
+}
+
+.container-focus {
+	margin: 0 auto;
+	padding: 10px;
+	background-color: rgb(240,240,240)
+}
+
+.cards-focus {
+	margin-right: 40px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px
+}
+
+.card-focus {
+	background-color: white;
+	width:350px;
+	text-align: left;
+	padding: 30px;
+	border-radius: 7px;
+	box-shadow: 1px 1px 1px #00000066
+}
+
+#focus-photo {
+	height: 175px;
+}
+
+hr {
+	margin-top: 60px;
+	margin-right: 50px;
+	margin-bottom: 60px
+}
+
+
+.banner-end {
+	width: 50%
+	margin-top: 100px;
+ 	background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2959558823529411) 65%, rgba(255,0,0,0.654499299719888) 100%), url(banner-end.jpg);
+    height: 00%;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.space {
+	color: rgb(240,240,240)
+}
+
+p {
+	color: #EA392D;
+	font-size: 18px;
+	text-align: center;
+}
